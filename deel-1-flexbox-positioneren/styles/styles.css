@@ -1,1 +1,98 @@
-/*Schrijf hier jouw CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-basis: 800px;
+}
+
+/*Opdracht 1*/
+.opdracht-1 {
+    display: flex;
+}
+
+.ul-1 {
+    gap: 12vh;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 20px;
+}
+
+
+/*Opdracht 2*/
+opdracht-2 {
+    border: 2px lightgrey;
+    display: flex;
+    justify-content: center;
+}
+
+ul  {
+    border: 2px lightgrey;
+    display: flex;
+    justify-content: center
+}
+
+li  {
+   /* border: 2px lightgrey;*/
+    flex-basis: 800px;
+}
+
+/*Opdracht 3*/
+.opdracht-3 ul{
+    border 2px lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.li-3-1 {
+    align-self: start;
+}
+
+.li-3-2 {
+    align-self: center;
+}
+
+.li-3-3 {
+    align-self: end
+}
+
+/*Opdracht 4*/
+.opdracht-4 .ul-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/*Opdracht 5*/
+.flex-outer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-column:nth-of-type(1) {
+    align-items: flex-start;
+    height: 10vh;
+    gap: 35px;
+}
+
+.flex-column:nth-of-type(2) {
+    align-items: center;
+    height: 10vh;
+    gap: 35px;
+}
+
+.flex-column:nth-of-type(3) {
+    align-items: flex-end;
+    height: 10vh;
+    gap: 35px;
+}
